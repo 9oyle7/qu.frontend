@@ -1,3 +1,51 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.upper-nav {
+    background-color: rgb(48,63,84) !important;
+    line-height: 3 !important;
+}
+
+.upper-nav a {
+    color: rgb(255, 255, 255);
+}
+
+.upper-nav .main-btn {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #fff;
+    background-color: rgb(32,52,78);
+}
+
+.upper-nav .dropdown-menu {
+    background-color: rgb(241,245,249);
+    border: none;
+    border-radius: 0;
+    color: #0069A2;
+    text-align: right;
+}
+.upper-nav .dropdown-menu[data-bs-popper] {
+    right: 0;
+    padding: 0 10px;
+}
+.upper-nav .dropdown-menu a {
+    color: #0069A2;
+    padding: 0 10px;
+}
+
+.upper-nav .dropdown-menu .dropdown-divider {
+    opacity: .25;
+}
+.upper-nav .dropdown-menu  .dropdown-item:focus, .upper-nav .dropdown-menu .dropdown-item:hover {
+    color: inherit;
+    background-color: #f1f5f9;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 24px;
+    }
+}
