@@ -95,7 +95,7 @@ start upper nav
 .upper-nav .searchBox input:focus {
     padding: 0 25px 0 10px;
 }
-.upper-nav svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+.upper-nav svg:not(:host).svg-inline--fa, .upper-nav svg:not(:root).svg-inline--fa {
     overflow: visible;
     box-sizing: content-box;
     padding: 7px;
