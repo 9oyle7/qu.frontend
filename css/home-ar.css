@@ -90,9 +90,11 @@
     text-decoration: none;
     color: #0369A1;
     font-weight: bold;
+    font-size: 14px;
 }
 .carousel-section .carousel-inner {
-    height: 60px;
+    height: 70px;
+    padding: 0 50px;
 }
 .carousel-section .carousel-indicators button {
     width: 10px;
