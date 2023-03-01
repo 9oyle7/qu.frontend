@@ -1,0 +1,105 @@
+.landing-page {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    height: 70vh;
+}
+
+.landing-page .video-container {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.landing-page .video-container video {
+	width: 1920px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.landing-page .video-container:after {
+	content: '';
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+.landing-page .content {
+	z-index: 2;
+}
+.landing-page .form input.form-control , .landing-page .form input.form-control::placeholder {
+	height: 60px;
+    background: none;
+    color: #fff;
+}
+
+.landing-page .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.landing-page .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-right: calc(var(--bs-border-width) * -1);
+    margin-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+}
+.landing-page .input-group>:last-child {
+    border-top-left-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+}
+.landing-page form .btn-majors,
+.landing-page form .btn-search {
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    font-size: 14px;
+    color: #fff;
+}
+.landing-page form .btn-search {
+    background-color: #383636;
+}
+.landing-page form .btn-majors {
+    border-left: solid 1px #fff;
+    background-color: #0369a1;    
+}
+
+/* carosel */
+.carousel-section {
+    background-color: #F3F4F6;
+    text-align: center;
+}
+.carousel-section .carousel-inner a {
+    text-decoration: none;
+    color: #0369A1;
+    font-weight: bold;
+}
+.carousel-section .carousel-inner {
+    height: 60px;
+}
+.carousel-section .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #0369A1;
+  }
+  .carousel-section .carousel-indicators {
+    margin-bottom: 0;
+  }
