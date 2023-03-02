@@ -86,7 +86,7 @@
     background-color: #F3F4F6;
     text-align: center;
 }
-.carousel-section .carousel-inner a {
+.carousel-section .carousel-inner a , .carousel-section .carousel-inner svg {
     text-decoration: none;
     color: #0369A1;
     font-weight: bold;
