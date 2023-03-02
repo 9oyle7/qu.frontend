@@ -105,3 +105,37 @@
   .carousel-section .carousel-indicators {
     margin-bottom: 0;
   }
+
+  /* navtabs */
+.navtabs {
+    padding: 100px 0;
+}
+.navtabs .nav-tabs {
+    padding-right: 0;
+    border-bottom: 1px solid #C9C9C9;
+    font-size: 24px;
+}
+.navtabs li.nav-item {
+    width: 50%;
+}  
+.navtabs li.nav-item button {
+    width: 100%;
+    color: #747474;
+    font-weight: bold;
+}
+
+.navtabs .nav-tabs .nav-item.show .nav-link, .navtabs .nav-tabs .nav-link.active {
+    color: #061025;
+    /* background-color: #00A3B2; */
+    /* border-color: #00A3B2; */
+   
+    border-bottom: 5px solid #00a3b2;
+}
+.navtabs .nav-tabs button {
+    background: none;
+    border: 0;
+}
+ .navtabs .nav-tabs button:hover {
+    background: none;
+    border: 0;
+}
