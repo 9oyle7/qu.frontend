@@ -123,12 +123,10 @@
     color: #747474;
     font-weight: bold;
 }
-
 .navtabs .nav-tabs .nav-item.show .nav-link, .navtabs .nav-tabs .nav-link.active {
     color: #061025;
     /* background-color: #00A3B2; */
     /* border-color: #00A3B2; */
-   
     border-bottom: 5px solid #00a3b2;
 }
 .navtabs .nav-tabs button {
@@ -138,4 +136,29 @@
  .navtabs .nav-tabs button:hover {
     background: none;
     border: 0;
+}
+.navtabs .tab-content .main-news {
+    background-color: #F1F5F9; 
+    padding: 2.5rem 1.5rem;
+}
+.navtabs .tab-content .main-news .title-news{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.navtabs .tab-content .main-news .date-news {
+     color: #4b5563;
+     font-size: 14px;
+}
+.navtabs .tab-content a.old-news {
+    text-decoration: none;
+}
+.navtabs .tab-content a.old-news .title{
+    color: #272828;
+    font-size: 22px;
+    font-weight: bold;
+}
+.navtabs .tab-content a.old-news .date{
+    color: #4b5563;
+    font-size: 14px;
 }
