@@ -367,4 +367,19 @@
     
   }
     
-  
+  /* start statics */
+  .statics {
+    background-color: #0069A2;
+    color: #fff;
+    text-align: center;
+  }
+  .statics .number h2 {
+    font-size: 3rem;
+  }
+  .statics .text p {
+    margin: 0 auto;
+    width: 190px;
+    line-height: 3rem;
+    font-size: 20px;
+    margin-bottom: 50px
+  }
