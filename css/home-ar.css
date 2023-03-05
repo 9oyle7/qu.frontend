@@ -238,4 +238,52 @@
       margin-top: -100px;
     }
   }
-  
+  /* start events */
+
+  .events .box-event-main {
+    /* border: 2px solid #E9E9E9; */
+    height: 300px;
+    padding: 20px 30px 0px;
+    line-height: 2;
+  }
+ 
+  @media only screen and (max-width: 768px) {
+    .events .box-event-main {
+        height: auto;
+        line-height: 1;
+        padding: 10px 5px;
+        flex-direction: row !important;
+        justify-content: space-around;
+        align-items: center !important;
+     }
+  }
+.events .box-event-main p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 3rem;
+}
+@media only screen and (max-width: 768px) {
+    .events .box-event-main p {
+        font-size: 1.3rem;
+    }
+  }
+.events .box-event-main .btn-callender {
+    padding: 6px 22px;
+    border: 1px solid #E9E9E9;
+    border-radius: 0;
+}
+@media only screen and (max-width: 768px) {
+    .events .box-event-main .btn-callender {
+        font-size: 12px;
+    }
+    
+  }
+.events .box-event-main .btn-callender.non-active {
+    background-color: #fff ;
+    color: #747474;
+}
+.events .box-event-main .btn-callender.active {
+    background-color: #0069A2 ;
+    color: #fff;
+}
