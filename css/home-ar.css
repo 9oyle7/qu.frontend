@@ -269,7 +269,7 @@
     }
   }
 .events .box-event-main .btn-callender {
-    padding: 6px 22px;
+    padding: 8px 14px;
     border: 1px solid #E9E9E9;
     border-radius: 0;
 }
@@ -287,3 +287,84 @@
     background-color: #0069A2 ;
     color: #fff;
 }
+.events .box-event-second {
+    border: 1px solid #E9E9E9;
+    height: 300px;
+    padding:30px 12px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width: 767px) {
+    .events .box-event-second {
+        flex-direction: row;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+  }
+.events .box-event-second .event-status .key-status {
+    padding: 2px 14px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+    top: -16px;
+    }
+.events .box-event-second .event-status .key-status.acadimic {
+        background-color: #0069A2;
+    }
+    .events .box-event-second .event-status .key-status.events {
+        background-color: #FACD0D;
+        }
+        .events .box-event-second .event-status .key-status.discus {
+            background-color: #00A3B1;
+            }
+  .events .box-event-second .date {
+    color: #0069A2;
+    font-weight: bold;
+    line-height: 60px;
+  }
+  
+  .events .box-event-second .date .month , .events .box-event-second .date .day {
+    margin: 0;
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  @media only screen and (max-width: 767px) {
+    .events .box-event-second .date .month ,
+     .events .box-event-second .date .day{
+     margin: 0;
+     font-size: 1.9rem;
+     width: 120px;
+     line-height: 3rem;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+     .events .box-event-second .date .day{
+
+         font-size: 3rem;
+    }
+  }
+  .events .box-event-second .event-info .title-event {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 12px;
+    height: 95px;
+    overflow: hidden;
+    line-height: 42px;
+    color: #333;
+  }
+
+  .events .box-event-second .event-info {
+    color: #747474;
+  }
+  @media only screen and (max-width: 767px) {
+    .events .box-event-second .event-info {
+        width: 100%;
+    }
+    
+  }
+    
+  
