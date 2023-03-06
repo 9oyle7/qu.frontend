@@ -5,6 +5,7 @@ body {
 footer {
     background-color: #303F54;
     color: #fff;
+    position: relative;
 }
 
 footer .list-group {

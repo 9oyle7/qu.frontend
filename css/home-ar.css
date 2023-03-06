@@ -370,9 +370,27 @@
   /* start statics */
   .statics {
     background-color: #0069A2;
+    padding: 140px 0;
     color: #fff;
     text-align: center;
-  }
+    position: relative;
+    /* background: url(../images/logo.svg) no-repeat #0069A2;
+    background-blend-mode: overlay;
+    background-size: 40%;
+    background-position: -119px 82px; */
+}
+.statics .background {
+position: absolute;
+bottom: 0;
+left: 0;
+}
+/* @media only screen and (max-width: 767px) {
+    .statics {
+        background-size: 110%;
+    background-position: -302px 540px;
+      }
+    
+  } */
   .statics .number h2 {
     font-size: 3rem;
   }
@@ -381,5 +399,12 @@
     width: 190px;
     line-height: 3rem;
     font-size: 20px;
-    margin-bottom: 50px
+    margin-top: 50px
+  }
+  @media only screen and (max-width: 767px) {
+    .statics .text p {
+        margin-top: 0;
+        margin-bottom: 50px;
+      }
+    
   }
