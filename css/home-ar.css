@@ -247,7 +247,7 @@
     line-height: 2;
   }
  
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 991px) {
     .events .box-event-main {
         height: auto;
         line-height: 1;
@@ -263,7 +263,7 @@
     font-weight: bold;
     font-size: 3rem;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .events .box-event-main p {
         font-size: 1.3rem;
     }
@@ -273,7 +273,7 @@
     border: 1px solid #E9E9E9;
     border-radius: 0;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .events .box-event-main .btn-callender {
         font-size: 12px;
     }
@@ -295,7 +295,7 @@
     display: flex;
     flex-direction: column;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
     .events .box-event-second {
         flex-direction: row;
         height: auto;
@@ -332,7 +332,7 @@
     font-size: 3rem;
     line-height: 3rem;
   }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 991px) {
     .events .box-event-second .date .month ,
      .events .box-event-second .date .day{
      margin: 0;
@@ -341,7 +341,7 @@
      line-height: 3rem;
     }
   }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 991px) {
      .events .box-event-second .date .day{
 
          font-size: 3rem;
@@ -360,7 +360,7 @@
   .events .box-event-second .event-info {
     color: #747474;
   }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 991px) {
     .events .box-event-second .event-info {
         width: 100%;
     }
@@ -402,9 +402,38 @@ left: 0;
     margin-top: 50px
   }
   @media only screen and (max-width: 767px) {
-    .statics .text p {
-        margin-top: 0;
-        margin-bottom: 50px;
+    .statics .number h2 {
+        padding-top: 40px;
       }
+    .statics .text p {
+        padding-bottom: 40px;
+        margin-top: 0;
+      }
+    
+  }
+  .statics .section {
+    position: relative;
+  }
+  .statics .section:not(:last-child)::after {
+    content: "";
+    width: 1px;
+    height: 210px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    /* transform: translateX(-50%); */
+    bottom: 5px;
+}
+@media only screen and (max-width: 767px) {
+    .statics .section:not(:last-child)::after {
+        content: "";
+        width: 210px;
+        height: 1px;
+        background-color: #fff;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 5px;
+    }
     
   }
