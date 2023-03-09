@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/header-ar.css">
+  <link rel="stylesheet" href="css/footer-ar.css">
   <link rel="stylesheet" href="css/home-ar.css">
   <link rel="stylesheet" href="css/general-ar.css">
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600&display=swap" rel="stylesheet">
