@@ -1,4 +1,4 @@
-<?php include 'pages/header-ar.php' ?>
+<?php include '_partials/header-ar.php' ?>
   <!-- start landing -->
   <section class="landing-page">
     <div class="video-container">
@@ -289,4 +289,4 @@
     </div>
   </div>
   <!-- end statics -->
-  <?php include 'pages/footer-ar.php' ?>
+  <?php include '_partials/footer-ar.php' ?>
