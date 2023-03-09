@@ -1,3 +1,408 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QU</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/header-ar.css">
+  <link rel="stylesheet" href="css/home-ar.css">
+  <link rel="stylesheet" href="css/general-ar.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- start upper nav -->
+  <nav class="navbar navbar-expand-lg lh-lg py-0 upper-nav d-none d-lg-block">
+    <div class="container">
+      <a class="btn main-btn rounded-pill" type="submit">MyQU</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#buttonMobile"
+        aria-controls="buttonMobile" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="buttonMobile">
+        <ul class="navbar-nav me-2 pe-0 mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              معلومات لـ ...
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">الطلاب</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">أعضاء هيئة التدريس</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">الموظفين</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">الخريجين</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">التقويم</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">الأخبار</a>
+          </li>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse" id="buttonMobile">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </ul>
+        <div class="searchBox ">
+          <form action="" method="" id="searchForm">
+            <input type="search" placeholder="بحث">
+            <i class="fa fa-search">
+              <a href="#" title="بحث"></a>
+            </i>
+          </form>
+        </div>
+        <a class="btn main-btn rounded-pill me-2" type="submit">EN</a>
+      </div>
+    </div>
+  </nav>
+  <!-- end upper nav -->
+  <!-- start bottom nav -->
+  <nav class="navbar navbar-expand-lg bottom-nav">
+    <div class="container align-items-end">
+      <a class="navbar-brand me-0" href="#">
+        <img src="images/1598px-Qassim_University_logo.svg.png" alt="logo" class="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="main_nav">
+        <ul class="navbar-nav p-0 gap-4">
+          <li class="nav-item dropdown has-megamenu">
+            <a class="nav-link dropdown-toggle " href="#" data-bs-auto-close="outside" data-bs-toggle="dropdown">الجامعة</a>
+            <div class="dropdown-menu megamenu" role="menu1">
+              <div class="container text-right">
+                <div class="row my-3">
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title" data-bs-toggle="collapse" href="#sub-title1" role="button" aria-expanded="false" aria-controls="collapseExample">عن الجامعة</a>
+                    </div>
+                    <div class="collapse" id="sub-title1">
+                     <div class="list-group sub-title">
+                      <a href="#" class="list-group-item" >الرؤية و الرسالة</a>
+                      <a href="#" class="list-group-item">تاريخ الجامعة</a>
+                      <a href="#" class="list-group-item">الترتيب و الاعتماد</a>
+                      <a href="#" class="list-group-item">الشراكات الأكاديمية</a>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title" data-bs-toggle="collapse" href="#sub-title2" role="button" aria-expanded="false" aria-controls="collapseExample">الوكالات</a>
+                    </div>
+                    <div class="collapse" id="sub-title2">
+                     <div class="list-group sub-title">
+                      <a href="#" class="list-group-item">وكالة الجامعة</a>
+                      <a href="#" class="list-group-item">وكالة الجامعة للدراسات العليا و البحث العلمي</a>
+                      <a href="#" class="list-group-item">وكيل الجامعة للشؤون التعليمية</a>
+                      <a href="#" class="list-group-item">وكيل الجامعة للتخطيط و التطوير و الجودة</a>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title" data-bs-toggle="collapse" href="#sub-title3" role="button" aria-expanded="false" aria-controls="collapseExample">الإدارات</a>
+                    </div>
+                    <div class="collapse" id="sub-title3">
+                     <div class="list-group sub-title">
+                      <a href="#" class="list-group-item">إدارة 1</a>
+                      <a href="#" class="list-group-item">إدارة 2</a>
+                      <a href="#" class="list-group-item">إدارة 3</a>
+                      <a href="#" class="list-group-item">إدارة 4</a>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title" data-bs-toggle="collapse" href="#sub-title4" role="button" aria-expanded="false" aria-controls="collapseExample">المرافق الرئيسية</a>
+                    </div>
+                    <div class="collapse" id="sub-title4">
+                     <div class="list-group sub-title">
+                      <a href="#" class="list-group-item">المدينة الطبية</a>
+                      <a href="#" class="list-group-item">المستشفى البيطري الجامعي</a>
+                      <a href="#" class="list-group-item">مدرسة القيادة</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row my-3">
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#sub-title5" role="button" aria-expanded="false" aria-controls="collapseExample">معالي رئيس الجامعة</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title" data-bs-toggle="collapse" href="#sub-title6" role="button" aria-expanded="false" aria-controls="collapseExample">العمادات</a>
+                    </div>
+                    <div class="collapse" id="sub-title6">
+                     <div class="list-group sub-title">
+                      <a href="#" class="list-group-item">عمادة تقنية المعلومات</a>
+                      <a href="#" class="list-group-item">عمادة الموارد البشرية</a>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title" data-bs-toggle="collapse" href="#sub-title7" role="button" aria-expanded="false" aria-controls="collapseExample">المراكز</a>
+                    </div>
+                    <div class="collapse" id="sub-title7">
+                     <div class="list-group sub-title">
+                      <a href="#" class="list-group-item">إدارة 1</a>
+                      <a href="#" class="list-group-item">إدارة 2</a>
+                      <a href="#" class="list-group-item">إدارة 3</a>
+                      <a href="#" class="list-group-item">إدارة 4</a>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#sub-title8" role="button" aria-expanded="false" aria-controls="collapseExample">الأنظمة و اللوائح</a>
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#sub-title8" role="button" aria-expanded="false" aria-controls="collapseExample">الخرائط و الاتجاهات</a>
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#sub-title8" role="button" aria-expanded="false" aria-controls="collapseExample">دليل التواصل</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </li>
+
+          <li class="nav-item dropdown has-megamenu">
+            <a class="nav-link dropdown-toggle " href="#" data-bs-auto-close="outside" data-bs-toggle="dropdown">الكليات</a>
+            <div class="dropdown-menu megamenu" role="menu2">
+              <div class="container text-right">
+                <div class="row my-3">
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title" data-bs-toggle="collapse" href="#sub-title9" role="button" aria-expanded="false" aria-controls="collapseExample">الكليات الشرعية</a>
+                    </div>
+                    <div class="collapse" id="sub-title9">
+                     <div class="list-group sub-title">
+                      <a href="#" class="list-group-item" >الشريعة و الدراسات الإسلامية</a>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title" data-bs-toggle="collapse" href="#sub-title10" role="button" aria-expanded="false" aria-controls="collapseExample">كليات العلوم و الآداب</a>
+                    </div>
+                    <div class="collapse" id="sub-title10">
+                     <div class="list-group sub-title">
+                      <a href="#" class="list-group-item" >العلوم و الآداب ببريدة</a>
+                      <a href="#" class="list-group-item" >العلوم و الآداب بعنيزة</a>
+                      <a href="#" class="list-group-item" >العلوم و الآداب بالرس</a>
+                      <a href="#" class="list-group-item" >العلوم و الآداب بالبكيرية</a>
+                      <a href="#" class="list-group-item" >العلوم و الآداب بالمذنب</a>
+                      <a href="#" class="list-group-item" >العلوم و الآداب برياض الخبراء</a>
+                      <a href="#" class="list-group-item" >العلوم و الآداب بعقلة الصقور</a>
+                      <a href="#" class="list-group-item" >العلوم و الآداب بالبدائع</a>
+                      <a href="#" class="list-group-item" >العلوم و الآداب الأسياح</a>
+                      <a href="#" class="list-group-item" >العلوم و الآداب بضرية</a>
+                      <a href="#" class="list-group-item" >العلوم و الآداب بعيون الجواء</a>
+                      <a href="#" class="list-group-item" >العلوم و الآداب بالنبهانية</a>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title" data-bs-toggle="collapse" href="#sub-title11" role="button" aria-expanded="false" aria-controls="collapseExample">الكليات الهندسية و العلمية</a>
+                    </div>
+                    <div class="collapse" id="sub-title11">
+                     <div class="list-group sub-title">
+                      <a href="#" class="list-group-item" >الزراعة و الطب البيطري</a>
+                      <a href="#" class="list-group-item" >العلوم</a>
+                      <a href="#" class="list-group-item" >الحاسب</a>
+                      <a href="#" class="list-group-item" >الهندسة</a>
+                      <a href="#" class="list-group-item" >الهندسة بعنيزة</a>
+                      <a href="#" class="list-group-item" >التصاميم</a>
+                      <a href="#" class="list-group-item" >العمارة و التخطيط</a>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title" data-bs-toggle="collapse" href="#sub-title12" role="button" aria-expanded="false" aria-controls="collapseExample">الكليات الصحية</a>
+                    </div>
+                    <div class="collapse" id="sub-title12">
+                     <div class="list-group sub-title">
+                      <a href="#" class="list-group-item" >الطب</a>
+                      <a href="#" class="list-group-item" >العلوم الطبية التطبيقية</a>
+                      <a href="#" class="list-group-item" >الصيدلة</a>
+                      <a href="#" class="list-group-item" >الصيدلة بعنيزة</a>
+                      <a href="#" class="list-group-item" >طب الأسنان</a>
+                      <a href="#" class="list-group-item" >طب الأسنان بالرس</a>
+                      <a href="#" class="list-group-item" >التأهيل الطبي</a>
+                      <a href="#" class="list-group-item" >الطب و العلوم الطبية بعنيزة</a>
+                      <a href="#" class="list-group-item" >العلوم الصحية بالرس</a>
+                      <a href="#" class="list-group-item" >الصحة المعامة و المعلوماتية بالكيرية</a>
+                      <a href="#" class="list-group-item" >التمريض</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row my-3">
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title" data-bs-toggle="collapse" href="#sub-title13" role="button" aria-expanded="false" aria-controls="collapseExample">كليات المجتمع</a>
+                    </div>
+                    <div class="collapse" id="sub-title13">
+                      <div class="list-group sub-title">
+                        <a href="#" class="list-group-item">المجتمع ببريدة</a>
+                        <a href="#" class="list-group-item">المجتمع بعنيزة</a>
+                     </div>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title" data-bs-toggle="collapse" href="#sub-title14" role="button" aria-expanded="false" aria-controls="collapseExample">الكليات العربية و الإنسانية</a>
+                    </div>
+                    <div class="collapse" id="sub-title14">
+                     <div class="list-group sub-title">
+                      <a href="#" class="list-group-item">اللغة العربية و الدراسات الاجتماعية</a>
+                      <a href="#" class="list-group-item">الاقتصاد و الادارة</a>
+                      <a href="#" class="list-group-item">التربية</a>
+                      <a href="#" class="list-group-item">ادارة الأعمال بالرس</a>                     
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title" data-bs-toggle="collapse" href="#sub-title15" role="button" aria-expanded="false" aria-controls="collapseExample">برنامج السنة التحضيرية</a>
+                    </div>
+                    <div class="collapse" id="sub-title15">
+                     <div class="list-group sub-title">
+                      <a href="#" class="list-group-item">برنامج 1</a>
+                      <a href="#" class="list-group-item">برنامج  2</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown has-megamenu">
+            <a class="nav-link dropdown-toggle " href="#" data-bs-auto-close="outside" data-bs-toggle="dropdown">القبول</a>
+            <div class="dropdown-menu megamenu" role="menu3">
+              <div class="container text-right">
+                <div class="row my-3">
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">قبول البكالوريوس</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">قبول الدراسات العليا</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">قبول الطلاب الدوليين</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">قبول الدبلومات</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown has-megamenu">
+            <a class="nav-link dropdown-toggle " href="#" data-bs-auto-close="outside" data-bs-toggle="dropdown">الأبحاث</a>
+            <div class="dropdown-menu megamenu" role="menu4">
+              <div class="container text-right">
+                <div class="row my-3">
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">أمانة الكراسي البحثية</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">المجلة العلمية</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">مراكز الأبحاث</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">المكتبة</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row my-3">
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">المؤتمرات و الندوات</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">الحصاد البحثي</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown has-megamenu">
+            <a class="nav-link dropdown-toggle " href="#" data-bs-auto-close="outside" data-bs-toggle="dropdown">الحياة الجامعية</a>
+            <div class="dropdown-menu megamenu" role="menu5">
+              <div class="container text-right">
+                <div class="row my-3">
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">اكتشف القصيم</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">الحرم الجامعي</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">قبول الطلاب الدوليين</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">السكن و الترفيه</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row my-3">
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">الخدمات الصحية</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="">
+                      <a class="main-title no-list" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">الأندية الطلابية</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
 
       </div>
     </div>

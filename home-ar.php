@@ -257,7 +257,7 @@
   <!-- start statics -->
   <div class="statics">
     <div class="background">
-      <img src="/images/logo1.png" alt="">
+      <img src="images/logo1.png" alt="">
     </div>
     <div class="container">
       <div class="row">
@@ -289,3 +289,4 @@
     </div>
   </div>
   <!-- end statics -->
+  <?php include 'pages/footer-ar.php' ?>
