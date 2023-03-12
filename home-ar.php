@@ -146,7 +146,6 @@
   </section>
   <!-- end navtabs -->
   <!-- start events -->
-  <!-- end events -->
   <div class="container events">
     <div class="row">
       <div class="col-lg-3">
@@ -254,6 +253,7 @@
       </a>
     </div>
   </div>
+    <!-- end events -->
   <!-- start statics -->
   <div class="statics">
     <div class="background">
