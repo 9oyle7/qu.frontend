@@ -49,14 +49,27 @@ body {
 /* end landing content */
 
 /* start news page */
-.main-news a {
+.main-news {
+  padding: 0px 10px;
+}
+.main-news a , .other-news a {
   text-decoration: none;
   text-align: start;
   color: var(--darkColor);
   line-height: 2;
 }
-.main-news .content-news {
+.main-news .content-news  {
   padding-right: 30px;
+}
+.other-news .content-news {
+  padding-right: 15px;
+  border-right: 4px solid var(--mainColor);
+}
+@media (max-width: 767px) {
+  .main-news .content-news {
+    padding-right: 15px;
+    border-right: 4px solid var(--mainColor);
+  }
 }
 .main-news .content-news .title {
   line-height: 2;
