@@ -50,8 +50,14 @@ body {
 
 /* start news page */
 .main-news {
-  padding: 0px 10px;
+  padding: 5rem 0;
 }
+@media (max-width: 767px) {
+  .main-news {
+    padding: 1rem 0;
+  }
+}
+
 .main-news a , .other-news a {
   text-decoration: none;
   text-align: start;
@@ -60,33 +66,81 @@ body {
 }
 .main-news .content-news  {
   padding-right: 30px;
+  position: relative;
 }
-.other-news .content-news {
-  padding-right: 15px;
-  border-right: 4px solid var(--mainColor);
+.other-news .content-news::after  {
+  content: "";
+  width: 4px;
+  height: calc(90% - 0px );
+  background-color: var(--mainColor);
+  position: absolute;
+  right: 0;
+  transform: translatey(-5%);
+  bottom: 0px;
 }
 @media (max-width: 767px) {
-  .main-news .content-news {
-    padding-right: 15px;
-    border-right: 4px solid var(--mainColor);
+  .main-news .content-news::after ,
+  .other-news .content-news::after {
+    content: "";
+    width: 4px;
+    height: calc(90% - 0px );
+    background-color: var(--mainColor);
+    position: absolute;
+    right: 0;
+    transform: translatey(-5%);
+    bottom: 0px;
   }
 }
-.main-news .content-news .title {
+.other-news .content-news {
+  position: relative;
+  width: 100%;
+  padding-right: 20px;
+  /* border-right: 4px solid var(--mainColor); */
+}
+.other-news .content-news .title {
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .main-news .content-news ,
+  .other-news .content-news {
+    padding-right: 15px;
+    /* border-right: 4px solid var(--mainColor); */
+    height: 170px;
+  }
+}
+.main-news .content-news .title , 
+.other-news .content-news .title {
   line-height: 2;
   font-weight: bold;
   max-height: 100px;
   overflow: hidden;
   margin: 15px 0;
+  font-size: 22px;
 }
+
 .main-news .content-news .details {
   min-height: 100px;
   max-height: 100px;
   overflow: hidden;
   margin: 0;
 }
-.main-news .content-news .date {
+.main-news .content-news .date , 
+.other-news .content-news .date{
   color: var(--secondColor);
 }
+.other-news .img-news {
+  width: 400px;
+  margin-left: 20px;
+}
+.other-news .content-news .details {
+  min-height: 70px;
+  max-height: 70px;
+  overflow: hidden;
+  margin: 0;
+  color: var(--secondColor);
+}
+
+
 ul.pagination {
   margin: 0;
   padding: 0;
