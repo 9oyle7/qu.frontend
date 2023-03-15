@@ -1,5 +1,6 @@
 <?php include '_partials/header-ar.php' ?>
   <!-- start landing -->
+  <?php $title ="الأخبار" ?>
   <?php include '_partials/breadcrumb-ar.php' ?>
   <!-- end landing -->
   <!-- start content of news section -->
