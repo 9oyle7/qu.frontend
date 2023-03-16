@@ -5,10 +5,15 @@
   <!-- start content of news section -->
   <div class="container">
     <div class="row">
-    <p id="demo"></p>
+    
 
-<button type="button" onclick="myFunction()">show date and time </button>
+      
+<button onclick="myFunction()">Try it</button>
 
+<div id="myDIV">
+<p id="datte"></p>
+</div>
+      
 
     </div>
   </div>
